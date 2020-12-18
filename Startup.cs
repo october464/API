@@ -41,7 +41,7 @@ namespace API
                     {
                         Name = "Jonathan Green",
                         Email = "Jontwin77@yahoo.com",
-                        Url = new Uri("https://apiportal1.herokuapp.com/")
+                        Url = new Uri("https://portal1232.herokuapp.com/")
                     }
                 });
                 var xmlFile = $"{ Assembly.GetExecutingAssembly().GetName().Name}.xml";
