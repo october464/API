@@ -1,0 +1,11 @@
+﻿.topbar-wrapper img[alt="Swagger-UI"]{
+
+}
+
+
+/*this will hide your useless dropdwon
+down
+*/
+.topbar-wrapper span, #select {
+    visibility: hidden;
+}
