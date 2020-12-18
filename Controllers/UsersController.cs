@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using DragonFin_API.Models;
-using Finportal.Data;
+using API.Models;
+using API.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace DragonFin_API.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

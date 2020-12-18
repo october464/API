@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace Finportal.Services
+namespace API.Services
 {
     public interface IImageService
     {

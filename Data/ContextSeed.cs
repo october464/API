@@ -1,12 +1,12 @@
-﻿using DragonFin_API.Models;
-using Finportal.Enum;
-using Finportal.Services;
+﻿using API.Models;
+using API.Enum;
+using API.Services;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Finportal.Data
+namespace API.Data
 {
     public class ContextSeed
     {

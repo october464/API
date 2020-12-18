@@ -1,5 +1,5 @@
-using DragonFin_API.Helper;
-using Finportal.Data;
+using API.Helper;
+using API.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +12,7 @@ using System.Reflection;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace DragonFin_API
+namespace API
 {
     public class Startup
     {
@@ -35,13 +35,13 @@ namespace DragonFin_API
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version ="v1",
-                    Title = "DragonFin_API",
+                    Title = "Finacial API",
                     Description = "This service is open and available for general user. There is no authentication....",
                     Contact = new OpenApiContact
                     {
                         Name = "Jonathan Green",
                         Email = "Jontwin77@yahoo.com",
-                        Url = new Uri("https://portal1232.herokuapp.com/")
+                        Url = new Uri("https://apiportal1.herokuapp.com/")
                     }
                 });
                 var xmlFile = $"{ Assembly.GetExecutingAssembly().GetName().Name}.xml";

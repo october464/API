@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DragonFin_API.Models;
-using Finportal.Data;
+using API.Models;
+using API.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace DragonFin_API.Controllers
+namespace API.Controllers
 {
     //Takes localhost:80/BankAccounts to
     //Localhost:80/api/BankAccounts

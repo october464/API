@@ -1,5 +1,5 @@
-﻿using DragonFin_API.Models;
-using Finportal.Models;
+﻿using API.Models;
+using API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
@@ -7,7 +7,7 @@ using Npgsql;
 using System.Collections.Generic;
 using System.Data;
 
-namespace Finportal.Data
+namespace API.Data
 {
     /// <summary>
     /// Where to get the data from

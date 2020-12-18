@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DragonFin_API.Models
+namespace API.Models
 {
     /// <summary>
     /// This is the Type that models a household

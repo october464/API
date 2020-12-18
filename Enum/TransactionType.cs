@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Finportal.Enum
+namespace API.Enum
 {
     public enum TransactionType
     {

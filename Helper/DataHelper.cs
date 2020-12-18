@@ -1,6 +1,6 @@
-﻿using DragonFin_API.Models;
-using Finportal.Data;
-using Finportal.Services;
+﻿using API.Models;
+using API.Data;
+using API.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DragonFin_API.Helper
+namespace API.Helper
 {
     public class DataHelper
     {
