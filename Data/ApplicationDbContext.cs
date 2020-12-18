@@ -1,5 +1,4 @@
 ﻿using API.Models;
-using API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
